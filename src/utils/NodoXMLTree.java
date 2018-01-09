@@ -170,11 +170,28 @@ public class NodoXMLTree {
 		return cabeza;
 	}
 	
-	/*private String separar(String className) { // Este método toma la última palabra del class para ponerlo como etiqueta en el nuevo XML
-		String[] separado;
-		separado = className.split("\\.");
-		return separado[separado.length - 1];
-	}*/
+//	public ArrayList<String> returnDetalles(NodoXMLTree nodo){
+//		ArrayList<String> detalles = new ArrayList<String>();
+//		detalles.add(nodo.getIndex());
+//		detalles.add(nodo.getText());
+//		detalles.add(nodo.getId());
+//		detalles.add(nodo.getClase());
+//		detalles.add(nodo.getPaquete());
+//		detalles.add(nodo.getContentDesc());
+//		detalles.add(String.valueOf(nodo.isCheckable()));
+//		detalles.add(String.valueOf(nodo.isChecked()));
+//		detalles.add(String.valueOf(nodo.isClickable()));
+//		detalles.add(String.valueOf(nodo.isEnabled()));
+//		detalles.add(nodo.focusable);
+//		detalles.add(nodo.focused);
+//		detalles.add(nodo.scrollable);
+//		detalles.add(nodo.password);
+//		detalles.add(nodo.selected);
+//		detalles.add(nodo.position);
+//		detalles.add(nodo.width);
+//		detalles.add(nodo.heigth);
+//		return detalles;
+//	}
 	
 	public void addChild(NodoXMLTree nuevoHijo) {
 		this.hijos.add(nuevoHijo);

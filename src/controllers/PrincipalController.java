@@ -171,6 +171,7 @@ public class PrincipalController {
 			NodeList nList = doc.getElementsByTagName("node");
 			lines.add("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
 			NodoXMLTree cabecera = new NodoXMLTree(nList.item(0));
+			contador = 0;
 			builtTreeNode(nList.item(0), espacio, 1, cabecera);
 			cabecera.createIndex(cabecera);
 			cabecera.printData(cabecera, 1);
