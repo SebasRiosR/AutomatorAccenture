@@ -1,0 +1,1 @@
+adb exec-out screenrecord --size=460x760 --output-format=h264 - | "C:\Users\sebastian.rios\Documents\Eclipse-workspace\AutomatorAccenture\ffmpeg\bin\ffplay.exe" -framerate 24 -
